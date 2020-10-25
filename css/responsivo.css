@@ -1,0 +1,219 @@
+/* Estilo para Tablets */
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+  /* Qualidade Home */
+  .qualidade:after {
+    right: 66px;
+  }
+
+  .qualidade_lista li {
+    text-align: center;
+    padding: 0 10px;
+  }
+} /* Final Estilo para Tablets */
+
+/* Estilo para Smartphones*/
+@media only screen and (max-width: 787px) {
+  /* Header */
+  .header {
+    height: 130px;
+    position: relative;
+    padding-bottom: 0;
+  }
+
+  .header img {
+    margin: 0 auto 10px auto;
+  }
+
+  .header_menu {
+    text-align: center;
+  }
+
+  .header_menu ul li {
+    margin: 5px;
+  }
+
+  .header_menu ul li a {
+    border: 4px solid #3ebcfe;
+    width: 87px;
+    display: block;
+    float: left;
+    font-size: 11px;
+  }
+
+  .header_menu ul li a:hover {
+    border-color: #000;
+  }
+
+  .header_menu ul li a.menu_ativo {
+    border-color: #000;
+  }
+
+  /* Introdução */
+  .introduction {
+    margin-top: 0;
+    padding-top: 30px;
+    height: auto;
+    margin: 60px 0;
+    background-size: cover;
+  }
+
+  .introduction h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  /* My Work */
+  .work-list li img {
+    height: 90px;
+  }
+
+  .work-list li {
+    margin: 5px;
+  }
+
+  .work-list li p {
+    padding: 10px 0;
+  }
+
+  .partners-list li img {
+    padding: 5px;
+  }
+
+  .btn {
+    padding: 10px 18px;
+  }
+
+  /* Introdução Interna */
+  .introducao-interna {
+    margin-top: 0;
+    height: 140px;
+  }
+
+  /* Call */
+  .call {
+    padding-top: 10px;
+  }
+
+  /* Qualidade Home */
+  .qualidade:after {
+    display: none;
+  }
+
+  /* Texts */
+  .news {
+    padding: 10px;
+    height: auto;
+  }
+
+  .news h1 {
+    font-size: 18px;
+    line-height: 1.5;
+    width: 92%;
+  }
+
+  .news p {
+    font-size: 14px;
+    line-height: 1.5;
+    width: 92%;
+  }
+
+  .news img {
+    height: 0;
+    border: 0px;
+  }
+
+  .titleText,
+  .titleVideo {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .main-content {
+    height: auto;
+  }
+
+  .subtitulo-interno {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .subtitulo-interno-sobre {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .transcription {
+    padding: 15px;
+    height: 400px;
+  }
+
+  .transcription p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .qualidade,
+  .videos,
+  .texts {
+    padding: 30px 0;
+  }
+
+  /* Sobre */
+  .about {
+    padding: 30px 0;
+  }
+
+  .picture {
+    margin-top: 45px;
+  }
+
+  .missao_sobre p {
+    padding-right: 0px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .missao_sobre ul li {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .about p {
+    font-size: 18px;
+    padding-right: 0;
+  }
+
+  .form {
+    padding-right: 0px;
+  }
+
+  .orcamento_dados {
+    padding-top: 20px;
+  }
+
+  .orcamento_dados ul {
+    padding-right: 0px;
+  }
+
+  /* Contato */
+  .contato {
+    padding: 30px 0;
+  }
+
+  .contato_form {
+    padding-right: 0px;
+  }
+
+  .contato_dados {
+    padding-top: 20px;
+  }
+
+  /* Footer */
+  .footer_historia {
+    margin-top: 20px;
+  }
+
+  .copy {
+    padding: 20px 0 0 0;
+  }
+} /* Final do Estilo para Smartphones */

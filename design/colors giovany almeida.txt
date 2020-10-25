@@ -1,0 +1,7 @@
+azul #3ebcfe
+branco #fff
+preto #000
+descrição cinza #5a5a5a
+bg cinza azul #E4EDF5
+
+text cinza #8E949B

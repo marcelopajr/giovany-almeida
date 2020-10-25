@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Giovany Almeida - About</title>
+  <meta name="description" content="I am a brazilian who works with translation services from English to Portuguese.">
+
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Giovany Almeida - About" />
+  <meta property="og:description" content="I am a brazilian who works with translation services from English to Portuguese." />
+  <meta property="og:url" content="https://giovanyalmeida.netlify.app/" />
+  <meta property="og:image" content="https://giovanyalmeida.netlify.app/img/og-image.png" />
+
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script>document.documentElement.classList.add("js")</script>
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="grid-4">
+        <img src="img/giologo.svg" alt="Giovany Almeida">
+      </a>
+      <nav class="grid-12 header_menu">
+        <ul>
+          <li><a href="subtitling.html">Subtitling</a></li>
+          <li><a href="texts.html">Texts</a></li>
+          <li><a href="about.html" class="menu_ativo">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="introducao-interna interna_sobre">
+    <div class="container">
+      <h1 data-anime="400" class="fadeInDown">About</h1>
+      <p data-anime="800" class="fadeInDown">a little about myself</p>
+    </div>
+  </section>
+
+  <section data-anime="1200" class="fadeInDown about container">
+    <div class="grid-10">
+      <h2 class="subtitulo-interno-sobre">Who am I</h2>
+      <p>Hello, I am a native speaker of Brazilian Portuguese who was born and raised in Ceará, a state in the northeast of the country. Passionate about reading, I grew up surrounded by books on philosophy, science, history, and with a lot of influence from cultures of different countries, a factor that contributed significantly to my education and to the choice of the translation profession.</p>
+      <p>Enthusiast of language studies, currently with a degree in English Language in progress, and learning Spanish. Always developing and improving different interests on the progress of linguistics and repercussion of languages to better understand the elements and formation processes that confer the characteristics of the Portuguese and English languages.</p>
+    </div>
+
+    <div class="grid-6">
+      <img class="picture" src="img/gio.png" alt="Giovany Almeida">
+    </div>
+  </section>
+
+  <section data-anime="1600" class="fadeInDown qualidade">
+    <h2 class="subtitle">Values</h2>
+    <img src="img/giovalues.svg" alt="Giovany Almeida">
+
+    <ul class="qualidade_lista container">
+      <li class="grid-1-3">
+        <h3>Guaranteed Quality</h3>
+        <p>Support the world’s best agencies with advanced quality assurance processes.</p>
+      </li>
+      <li class="grid-1-3">
+        <h3>On-Time<br>Delivery</h3>
+        <p>Optimized workflow that guarantees the deliveries on time. You can order services 24/7.</p>
+      </li>
+      <li class="grid-1-3">
+        <h3>Comprehension and Editing</h3>
+        <p>Decoding the message and using appropriate words for the client's purpose.</p>
+      </li>
+    </ul>
+  </section>
+
+  <section data-anime="2000" class="fadeInDown contato container">
+    <h2 class="contact">Contact Me</h2>
+    <form class="grid-8 contato_form formphp" id="form_orcamento" method="POST" action="/enviar-sendgrid.php">
+      <label for="nome">Name</label>
+      <input type="text" id="nome" name="nome" required>
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required>
+
+      <label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+      <input class="nao-aparece" type="text" name="leaveblank">
+      <label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+      <input class="nao-aparece" type="text" name="dontchange" value="http://">
+
+      <label for="mensagem">Message</label>
+      <textarea id="mensagem" name="mensagem" required></textarea>
+      <button id="enviar" name="enviar" class="btn" type="submit">Send</button>
+    </form>
+
+    <div class="grid-8 contato_dados">
+      <h3>E-mail</h3>
+      <span>- gvncesar@gmail.com</span>
+    </div>
+  </section>
+
+  <footer>
+    <div class="copy">
+      <div class="container">
+        <p class="grid-16">Giovany Almeida 2020 - Translator</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/simple-anime.js"></script>
+  <script src="js/simple-form.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
