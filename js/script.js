@@ -9,6 +9,6 @@ if (window.SimpleForm) {
     erro:
       "<div id='form-erro'><h2>Sending error! </h2> <p>An error has occurred, try send email to gvncesar@gmail.com</p></div>", // mensagem de erro
     sucesso:
-      "<div id='form-sucesso'><h2>Successfully submitted form</h2><p>I will contact you soon.</p></div>", // mensagem de sucesso
+      "<div id='form-sucesso'><h2>Successfully submitted form! </h2><p>I will contact you soon.</p></div>", // mensagem de sucesso
   });
 }
