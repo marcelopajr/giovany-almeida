@@ -25,7 +25,7 @@ $email->setReplyTo($email_user, $nome_user);
 $email->setSubject("Giovany Almeida Form");
 $email->addContent("text/plain", $body_content);
 
-$sendgrid = new \SendGrid("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");
+$sendgrid = new \SendGrid("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");
 try {
     $response = $sendgrid->send($email);
     print $response->statusCode() . "\n";
